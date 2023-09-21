@@ -51,7 +51,7 @@ create account in link below
 We will use a dataset obtained from the research center at our university. This dataset provides crucial insights into onion pricing trends in the Tegal, Central of Java. Additionally, we possess an IoT dataset encompassing weather and environmental data for the Kabupaten Tegal area, including variables such as air humidity and wind speed. It's important to note that both datasets have been acquired with proper authorization and collaboration from local authorities in Kabupaten Tegal. All data used in this research will be treated with the utmost confidentiality and will solely be employed for research and analytical purposes. We respect data privacy and confidentiality and will adhere to all relevant regulations governing data usage.
 
 ## Step 1. Explore the data
-#### If you want to run the notebook that include the Exploratory Data Analysis below, go to [here](Data Preprocessing dan Exploratory Data Analysis.ipynb)
+#### If you want to run the notebook that include the Exploratory Data Analysis below, go to [here](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/blob/main/Data%20Preprocessing%20dan%20Exploratory%20Data%20Analysis.ipynb)
 
 * see the data into a data frame, and call the `df_.head()` function, you will see the first 5 rows of the data set also the 8 data features.
 ![github-1](https://github.com/salsabilapl/Onion-Price-Prediction/assets/74218691/700501eb-01f0-4541-aef3-00ca7855da58)
