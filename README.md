@@ -113,26 +113,33 @@ We will use a dataset obtained from the research center at our university. This 
 
 3.  Next, you see that AutoAI processes your data, and you see a What do you want to predict section. Click Yes for the option to create a Time Series Forecast.
    
-5.  Choose as prediction columns: value_L.
+4.  Choose as prediction columns: value_L.
    
-7.  Choose as the date/time column: Date.
+5.  Choose as the date/time column: Date.
 
-8.  Next, let's explore the AutoAI settings to see what you can customize when running your experiment. Click on Experiment settings.First, In the Data source page, select the Time series tab.For this tutorial, accept the default value for Number of backtests, Gap length, and Holdout length.
+6.  Next, let's explore the AutoAI settings to see what you can customize when running your experiment. Click on Experiment settings.First, In the Data source page, select the Time series tab.For this tutorial, accept the default value for Number of backtests, Gap length, and Holdout length.
    
-10.  Click Cancel to exit from the Experiment settings. 
+7.  Click Cancel to exit from the Experiment settings. 
 
-11.  Click Run experiment to begin the training.
+8.  Click Run experiment to begin the training.
 
-8.  Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
+8.  Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen, when we click which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
+![data pipeline](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/f4145952-306a-409a-a86b-7bdb07e3829e)
+![Progress map](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/418639da-8275-445b-87f2-35bb40b914b8)
 
 9.  You have different pipelines that are created, and you see the rankings of each model. Each model is ranked based on the metric that you selected.
 
-11. When the training completes, the top three best performing pipelines are saved to the leaderboard. Click View discarded pipelines to review pipelines with the least performance.. As you can see, the best pipeline for this model is the Pipeline 9 with Snap Ensembler algortihm with smape validation 2.556, smape holdout 2.769, smape backtest 2.805.
-
-
-10.  After the pipelines are listed on the leaderboard, click Pipeline comparison to see how they differ.
+10. After the pipelines are listed on the leaderboard, click Pipeline comparison to see how they differ.
+![pipeline comparison](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/e09a7430-d43f-44f6-b451-5862572831e7)
     
+11. When the training completes, the top three best performing pipelines are saved to the leaderboard. Click View discarded pipelines to review pipelines with the least performance. As you can see, the best pipeline for this model is the Pipeline 9 with Snap Ensembler algortihm with smape validation 2.556, smape holdout 2.769, smape backtest 2.805.
+![best pipeline](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/06eba7ca-2c7c-43bf-8a2c-99db7e92f19e)
+
 12.  If we open best algorithm, we can see the model information, feature summary, model evaluation, prediction over time, backtest performance.
+![model information](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/5f768578-77e1-4a7a-8a78-0eb1cd8bffc1)
+![model evaluation](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/13f03dff-4e03-4c6f-b3fd-f68ab374b83f)
+![Prediction overtime](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/6d460ac3-c180-464e-9bef-4c2a4d9f89c8)
+![mae backtest performance](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/287849bc-d609-4565-ab6f-d6267082c30e)
     
 14.  Select the pipeline with Rank 1 and click Save as to create your model. Then, click Create. This action saves the pipeline under the Models section in the Assets tab.
 
