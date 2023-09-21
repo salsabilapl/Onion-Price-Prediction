@@ -87,4 +87,5 @@ We will use a dataset obtained from the research center at our university. This 
 ![github-9](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/548efc03-449d-4e87-85fd-e215824fa732)
 
 * Dickey Fuller Check for the time series purpose
-![github-10](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/c18116e4-a912-4c0e-8ef3-6465a34e6b95)
+![github-10](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/7ac77f1b-5893-41e0-9f72-166604cd730a)
+
