@@ -52,3 +52,8 @@ We will use a dataset obtained from the research center at our university. This 
 
 ## Step 1. Explore the data
 #### If you want to run the notebook that include the Exploratory Data Analysis below, go to [here](
+
+*
+
+* see the data into a data frame, and call the `df_.head()` function, you will see the first 5 rows of the data set also the 13 data features.
+![github-1](https://github.com/salsabilapl/Onion-Price-Prediction/assets/74218691/700501eb-01f0-4541-aef3-00ca7855da58)
