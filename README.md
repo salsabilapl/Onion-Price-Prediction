@@ -89,3 +89,25 @@ We will use a dataset obtained from the research center at our university. This 
 * Dickey Fuller Check for the time series purpose
 ![github-10](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/7ac77f1b-5893-41e0-9f72-166604cd730a)
 
+<b>If you want to see all of the Exploratory Data Analysis code, and run the notebook yourself, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb)</b>
+
+## Step 3. Create IBM Cloud services and the AutoAI
+1.	Login to your IBM Cloud account: https://cloud.ibm.com 
+
+2.	Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Search and create this services: <b>Watson Studio</b>, <b>Watson Machine Learning</b>, and <b>Cloud Object Storage</b>
+
+3.	 Once all the services instance is ready, redirect to the Watson Studio page. Click on the “Launch in IBM Cloud Pak for Data” button to launch Watson Studio in a new tab.
+
+4.  Create new project that says, “New Project”. Next, click on “Create an empty project”.
+
+5.  On the new project page, give your project a name. You will also need to associate an IBM Cloud Object Storage instance to store the data set.
+
+6. Go to Manage Tab, in the Service & Integrations option, associate the <b>Watson Machine Learning</b> service.
+
+7.  Upload the `data_bawang.csv` dataset that you have downloaded it previously. Watson Studio takes a couple of seconds to load the data, and then you should see the import has completed. To make sure it has worked properly, you can click on “Assets” on the top of the page, and you should see your insurance file under “Data Assets”.
+
+8.  Once you have added the data set, click on the “New Asset” button on the top right corner. This time select “AutoAI”.
+
+
+
+
