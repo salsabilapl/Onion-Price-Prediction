@@ -164,6 +164,6 @@ Note: We show you how to save it as a notebook in step 6.
 
 12. To test your model, click on the “Test” tab. You can select a row from the data set and enter the data in the fields then click on the “Predict” button at the bottom. 
 
-13. Until now, we know the model is working properly.
+13. The result of predict is price one day after the price you input. Until now, we know the model is working properly.
 
 
