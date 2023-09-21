@@ -19,8 +19,8 @@ Upon completing this code pattern, you will gain proficiency in the following:
 ## Flow Description
 1. The user creates an IBM Watson Studio Service on IBM Cloud.
 2. The user creates an IBM Cloud Object Storage Service and adds that to Watson Studio.
-3. The user uploads the student adaptability level in online education data file into Watson Studio.
-4. The user creates an AutoAI Experiment to predict student adaptability level on Watson Studio
+3. The user uploads the onion price data file into Watson Studio.
+4. The user creates an AutoAI Experiment to predict onion price on Watson Studio
 5. AutoAI uses Watson Machine Learning to create several models, and the user deploys the best performing model.
 
 ## Included components
@@ -91,7 +91,7 @@ We will use a dataset obtained from the research center at our university. This 
 
 <b>If you want to see all of the Exploratory Data Analysis code, and run the notebook yourself, go to [here](https://github.com/omidiyanto/student-adaptability-prediction/blob/main/Exploratory%20Data%20Analysis/notebooks.ipynb)</b>
 
-## Step 3. Create IBM Cloud services and the AutoAI
+## Step 2. Create IBM Cloud services and the AutoAI
 1.	Login to your IBM Cloud account: https://cloud.ibm.com 
 
 2.	Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Search and create this services: <b>Watson Studio</b>, <b>Watson Machine Learning</b>, and <b>Cloud Object Storage</b>
@@ -108,6 +108,41 @@ We will use a dataset obtained from the research center at our university. This 
 
 8.  Once you have added the data set, click on the “New Asset” button on the top right corner. This time select “AutoAI”.
 
+## Step 3. Run AutoAI experiment
+1.  On the New AutoAI Experiment page, give a name to your AutoAI project.
 
+2.  After you create your experiment, you are taken to a page to add a data source to your project. Click on “Select from project” and then add the `data_bawang.csv` file. Click on Select asset to confirm your data source.
+
+3.  Next, you see that AutoAI processes your data, and you see a What do you want to predict section. Click Yes for the option to create a Time Series Forecast.
+   
+5.  Choose as prediction columns: value_L.
+   
+7.  Choose as the date/time column: Date.
+
+8.  Next, let's explore the AutoAI settings to see what you can customize when running your experiment. Click on Experiment settings.First, In the Data source page, select the Time series tab.For this tutorial, accept the default value for Number of backtests, Gap length, and Holdout length.
+   
+10.  Click Cancel to exit from the Experiment settings. 
+
+11.  Click Run experiment to begin the training.
+
+![running](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/5.-Run-Experiment-AutoAI.gif?raw=true)
+
+8.  Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
+
+![complete](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/AutoAI%20Complete.png?raw=true)
+
+![pipeline](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/AutoAI%20Pipeline.png?raw=true)
+
+9.  You have different pipelines that are created, and you see the rankings of each model. Each model is ranked based on the metric that you selected.
+
+11. When the training completes, the top three best performing pipelines are saved to the leaderboard. Click View discarded pipelines to review pipelines with the least performance.. As you can see, the best pipeline for this model is the Pipeline 9 with Snap Ensembler algortihm with smape validation 2.556, smape holdout 2.769, smape backtest 2.805.
+
+![evaluateModel](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/6.-Evaluate-the-model.gif?raw=true)
+
+10.  After the pipelines are listed on the leaderboard, click Pipeline comparison to see how they differ.
+    
+12.  If we open best algorithm, we can see the model information, feature summary, model evaluation, prediction over time, backtest performance.
+    
+14.  Select the pipeline with Rank 1 and click Save as to create your model. Then, click Create. This action saves the pipeline under the Models section in the Assets tab.
 
 
