@@ -77,6 +77,7 @@ We will use a dataset obtained from the research center at our university. This 
 ![github-6](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/61d2780f-381d-4062-befe-afdce91fa1b4)
 
 * How the price visualization in the boxplot?
+
 ![github-7](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/df4cd030-b7c9-4eb5-9f9a-79438e1e6af3)
 
 * Average price in every month
