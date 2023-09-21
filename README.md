@@ -41,10 +41,14 @@ create account in link below
 
 # Steps
 0. [Prepare the dataset](#step-0-Prepare-the-dataset)
-1. [Clone the repo](#step-1-clone-the-repo)
-2. [Explore the data (recommended)](#step-2-explore-the-data-recommended)
-3. [Create IBM Cloud services and the AutoAI](#step-3-create-ibm-cloud-services-and-the-AutoAI)
-4. [Run AutoAI experiment](#step-4-run-autoai-experiment)
-5. [Create a deployment and test your model](#step-5-create-a-deployment-and-test-your-model)
-6. [Create a notebook from your model (optional)](#step-6-create-a-notebook-from-your-model-optional)
+1. [Explore the data (recommended)](#step-2-explore-the-data-recommended)
+2. [Create IBM Cloud services and the AutoAI](#step-3-create-ibm-cloud-services-and-the-AutoAI)
+3. [Run AutoAI experiment](#step-4-run-autoai-experiment)
+4. [Create a deployment and test your model](#step-5-create-a-deployment-and-test-your-model)
+5. [Create a notebook from your model (optional)](#step-6-create-a-notebook-from-your-model-optional)
 
+## Step 0. Download the data set 
+We will use a dataset obtained from the research center at our university. This dataset provides crucial insights into onion pricing trends in the Tegal, Central of Java. Additionally, we possess an IoT dataset encompassing weather and environmental data for the Kabupaten Tegal area, including variables such as air humidity and wind speed. It's important to note that both datasets have been acquired with proper authorization and collaboration from local authorities in Kabupaten Tegal. All data used in this research will be treated with the utmost confidentiality and will solely be employed for research and analytical purposes. We respect data privacy and confidentiality and will adhere to all relevant regulations governing data usage.
+
+## Step 1. Explore the data
+#### If you want to run the notebook that include the Exploratory Data Analysis below, go to [here](
