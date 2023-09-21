@@ -14,6 +14,6 @@ Upon completing this code pattern, you will gain proficiency in the following:
 
 ### Architecture Components
 
-![Architecture Components]([https://media.github.ibm.com/user/21063/files/3b77e580-913c-11ea-9dea-425b1d4f4ee0](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAutoAI&psig=AOvVaw0u0vXxEd_NUpu_g9lGLYP7&ust=1695348396705000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICXrYnPuoEDFQAAAAAdAAAAABAR)https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAutoAI&psig=AOvVaw0u0vXxEd_NUpu_g9lGLYP7&ust=1695348396705000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCICXrYnPuoEDFQAAAAAdAAAAABAR)
+![Architecture Components](https://upload.wikimedia.org/wikipedia/commons/b/bb/AutoAI-ml-process.png)
 
 ## Flow Description
