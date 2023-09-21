@@ -57,3 +57,33 @@ We will use a dataset obtained from the research center at our university. This 
 
 * see the data into a data frame, and call the `df_.head()` function, you will see the first 5 rows of the data set also the 8 data features.
 ![github-1](https://github.com/salsabilapl/Onion-Price-Prediction/assets/74218691/700501eb-01f0-4541-aef3-00ca7855da58)
+
+* see the data into a data frame, and call the `df_.head()` function, see the first 5 rows of the data set also the 8 data features.
+![github-1](https://github.com/salsabilapl/Onion-Price-Prediction/assets/74218691/700501eb-01f0-4541-aef3-00ca7855da58)
+
+* see analysis descriptive of the data, call the `data.describe()`function.
+![github-2](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/4f70a7c3-019d-447e-b2cd-d42b8eeca35a)
+ 
+* How the distribution of every variable?
+![github-3](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/05074af1-9ce8-47e6-81e6-5ea55a6adc49)
+
+* How the correlation every variables?
+![github-4](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/34161c5f-97ea-450d-a645-5b5737ba4adc)
+
+* How the onion price over time?
+![github-5](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/57b5e44e-7984-4440-b035-e97cca1735da)
+
+* How distribution the frequency of price?
+![github-6](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/61d2780f-381d-4062-befe-afdce91fa1b4)
+
+* How the price visualization in the boxplot?
+![github-7](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/df4cd030-b7c9-4eb5-9f9a-79438e1e6af3)
+
+* Average price in every month
+![github-8](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/69e4b734-a806-4230-9e48-e9d38fa37b7c)
+
+* Average price in every year
+![github-9](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/548efc03-449d-4e87-85fd-e215824fa732)
+
+* Dickey Fuller Check for the time series purpose
+![github-10](https://github.com/salsabilapl/Onion-Price-Prediction-Auto-AI/assets/74218691/c18116e4-a912-4c0e-8ef3-6465a34e6b95)
