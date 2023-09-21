@@ -17,3 +17,34 @@ Upon completing this code pattern, you will gain proficiency in the following:
 ![Architecture Components](https://upload.wikimedia.org/wikipedia/commons/b/bb/AutoAI-ml-process.png)
 
 ## Flow Description
+1. The user creates an IBM Watson Studio Service on IBM Cloud.
+2. The user creates an IBM Cloud Object Storage Service and adds that to Watson Studio.
+3. The user uploads the student adaptability level in online education data file into Watson Studio.
+4. The user creates an AutoAI Experiment to predict student adaptability level on Watson Studio
+5. AutoAI uses Watson Machine Learning to create several models, and the user deploys the best performing model.
+
+## Included components
+*	[IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio) - IBM Watson® Studio helps data scientists and analysts prepare data and build models at scale across any cloud.
+*	[IBM Watson Machine Learning](https://cloud.ibm.com/catalog/services/machine-learning) - IBM Watson® Machine Learning helps data scientists and developers accelerate AI and machine-learning deployment. 
+*	[IBM Cloud Object Storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) - IBM Cloud™ Object Storage makes it possible to store practically limitless amounts of data, simply and cost effectively.
+
+## Featured technologies
++ [artificial-intelligence](https://developer.ibm.com/technologies/artificial-intelligence/) - Build and train models, and create apps, with a trusted AI-infused platform.
++ [Python](https://www.python.org/) - Python is an interpreted, high-level, general-purpose programming language.
+
+## Prerequisites
+
+This Cloud pattern assumes you have an **IBM Cloud** account. Go to the 
+create account in link below 
+  - [IBM Cloud account](https://cloud.ibm.com)
+  - [Python 3.11.0](https://www.python.org/downloads/release/python-3110/)
+
+# Steps
+0. [Prepare the dataset](#step-0-Prepare-the-dataset)
+1. [Clone the repo](#step-1-clone-the-repo)
+2. [Explore the data (recommended)](#step-2-explore-the-data-recommended)
+3. [Create IBM Cloud services and the AutoAI](#step-3-create-ibm-cloud-services-and-the-AutoAI)
+4. [Run AutoAI experiment](#step-4-run-autoai-experiment)
+5. [Create a deployment and test your model](#step-5-create-a-deployment-and-test-your-model)
+6. [Create a notebook from your model (optional)](#step-6-create-a-notebook-from-your-model-optional)
+
