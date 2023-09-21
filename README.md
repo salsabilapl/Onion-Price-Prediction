@@ -125,24 +125,45 @@ We will use a dataset obtained from the research center at our university. This 
 
 11.  Click Run experiment to begin the training.
 
-![running](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/5.-Run-Experiment-AutoAI.gif?raw=true)
-
 8.  Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
-
-![complete](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/AutoAI%20Complete.png?raw=true)
-
-![pipeline](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/AutoAI%20Pipeline.png?raw=true)
 
 9.  You have different pipelines that are created, and you see the rankings of each model. Each model is ranked based on the metric that you selected.
 
 11. When the training completes, the top three best performing pipelines are saved to the leaderboard. Click View discarded pipelines to review pipelines with the least performance.. As you can see, the best pipeline for this model is the Pipeline 9 with Snap Ensembler algortihm with smape validation 2.556, smape holdout 2.769, smape backtest 2.805.
 
-![evaluateModel](https://github.com/omidiyanto/program_omi/blob/main/asset-gif/6.-Evaluate-the-model.gif?raw=true)
 
 10.  After the pipelines are listed on the leaderboard, click Pipeline comparison to see how they differ.
     
 12.  If we open best algorithm, we can see the model information, feature summary, model evaluation, prediction over time, backtest performance.
     
 14.  Select the pipeline with Rank 1 and click Save as to create your model. Then, click Create. This action saves the pipeline under the Models section in the Assets tab.
+
+## Step 5. Create a deployment and test your model
+1.	Once you are ready to deploy one of the models, click on “Save As” at the top-right corner of the model you want to deploy. Save it as a “Model” and name your model as you want. Click on “Create” 
+Note: We show you how to save it as a notebook in step 6.
+
+2.	Once the model is successfully saved, click on the “View in project” in the green notification on the right side of the screen. Alternatively, you can also find your model saved in the “Assets” tab under “Models”.
+
+3.	Next, you are taken to a screen that has the overview of the model you just saved. Click on “Promote to deployment space” on the top right corner of your screen.  Alternatively, if you’re doing it from the Assets tab, then under the “Models” section, click on the 3 dots on the right side of your screen and click “promote”.
+
+4.	On the Promote to space page, you need a target space to promote your model. Click on “New space +” on the right side of your screen. 
+
+5.	Next, on the Create a deployment space screen, give your space a name, make sure the right cloud object storage is selected, and select your machine learning service instance. For this experiment, selecting the machine learning service is mandatory as we need to build a prediction model. Then click on “Create”.
+
+6.	Once the space is ready, click on “Close” in the pop-up and you will be redirected to the promote to space page. You see your newly created space under the “Target space”. Once you’re happy with your selections, click on “Promote”. 
+
+7.	Once the model is successfully promoted, you will see a green notification box, click on “deployment space” in the notification. Alternatively, you can also find your deployment spaces when you click on the hamburger sign on the top left most side on your screen. 
+
+8.	You will be redirected to the deployments page, where you will find your promoted model. Hover over the row, to see a rocket shaped icon, click on the icon to deploy you model. 
+
+9.	In the dialog box, select “Online” as your deployment type, give your deployment a name and click “Create”.
+
+10.	Click on the “Deployments” tab to see the status of your deployment. Once the deployment is completed, click on the name your deployment. 
+
+11.	On this page you find the API references, endpoint and code snippets to help you integrate your model with your applications.
+
+12. To test your model, click on the “Test” tab. You can select a row from the data set and enter the data in the fields then click on the “Predict” button at the bottom. 
+
+13. Until now, we know the model is working properly.
 
 
